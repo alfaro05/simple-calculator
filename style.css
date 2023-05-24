@@ -19,9 +19,13 @@ h1, p{
 h1 {
     text-shadow: 2px 2px 1px fuchsia;
 }
+.description{
+    margin: 1vw;
+}
 .calc-area{
     background-color: var(--calc-color);
     padding: 20px;
+    margin: 1vw;
 }
 div{
     margin: 0px;
