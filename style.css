@@ -1,0 +1,66 @@
+:root{
+    --button-side: 50px;
+    --screen-width:200px;
+    --calc-color: rgb(77, 77, 77);
+    --button-color: rgb(202, 202, 202);
+    --button-color-hover: rgb(145, 145, 145);
+    
+}
+body{
+    background-color: black;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Alfa Slab One', cursive;
+}
+h1, p{
+    margin: 1vw;
+}
+h1 {
+    text-shadow: 2px 2px 1px fuchsia;
+}
+.calc-area{
+    background-color: var(--calc-color);
+    padding: 20px;
+}
+div{
+    margin: 0px;
+    padding: 0px;
+}
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row1, .row2, .row3, .row4{
+    display: flex;
+    flex-direction: row;
+}
+.button{
+    width: var(--button-side);
+    height: var(--button-side);
+    background-color: var(--button-color);
+    color:black;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.button:hover{
+    background-color:var(--button-color-hover);
+}
+.screen{
+    height: var(--button-side);
+    background-color: rgb(1, 61, 43);
+    width: var(--screen-width);
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    border: 1px black solid;
+}
+.screen-content{
+    width: fit-content;
+    font-family: 'Press Start 2P', cursive;
+}
