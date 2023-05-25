@@ -59,6 +59,7 @@ div{
 }
 .button:hover{
     background-color:var(--button-color-hover);
+    cursor: pointer;
 }
 .screen{
     height: var(--button-side);
