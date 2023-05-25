@@ -11,7 +11,6 @@ document.querySelector(".screen-content").innerHTML = 0;
 
 const numbers = Array.from(document.querySelectorAll(".num"));
 const operators = Array.from(document.querySelectorAll(".op"));
-console.log(numbers);
 
 function calculation (x, y, op){
     let calc_result = 0;
@@ -44,8 +43,6 @@ numbers.map(function(number){
             second_number_list+=[Number(number.innerHTML)];
             document.querySelector(".screen-content").innerHTML = second_number_list;
         }
-        console.log(first_number_list);
-        console.log(second_number_list);
     }
     )
 })
