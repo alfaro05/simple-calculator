@@ -72,4 +72,5 @@ div{
 .screen-content{
     width: fit-content;
     font-family: 'Press Start 2P', cursive;
+    overflow: hidden;
 }
