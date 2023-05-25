@@ -68,6 +68,9 @@ document.getElementById("result").addEventListener("click", function(){
     }
     if(second_number_flag){
         result = calculation(Number(first_number_list), Number(second_number_list), operation);
+        if(operation == "÷" && Number(second_number_list)==0){
+            result = "ERROR";
+        }
         document.querySelector(".screen-content").innerHTML = result;
         first_number_flag = true;
         second_number_flag = false;
