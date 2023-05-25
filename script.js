@@ -7,6 +7,7 @@ let result = 0;
 let first_number_flag = true;
 let second_number_flag = false;
 let operator_flag = false;
+document.querySelector(".screen-content").innerHTML = 0;
 
 const numbers = Array.from(document.querySelectorAll(".num"));
 const operators = Array.from(document.querySelectorAll(".op"));
@@ -80,7 +81,7 @@ document.getElementById("result").addEventListener("click", function(){
     }
 })
 document.querySelector(".reset").addEventListener("click",function(){
-    document.querySelector(".screen-content").innerHTML = "";
+    document.querySelector(".screen-content").innerHTML = 0;
     first_number_flag = true;
     second_number_flag = false;
     operator_flag = false;
