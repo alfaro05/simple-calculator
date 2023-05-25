@@ -19,6 +19,9 @@ h1, p{
 h1 {
     text-shadow: 2px 2px 1px fuchsia;
 }
+a{
+    color: lime;
+}
 .description{
     margin: 1vw;
     text-align: justify;
