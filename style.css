@@ -21,6 +21,7 @@ h1 {
 }
 .description{
     margin: 1vw;
+    text-align: justify;
 }
 .calc-area{
     background-color: var(--calc-color);
